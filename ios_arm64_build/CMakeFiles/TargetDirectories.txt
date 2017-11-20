@@ -1,0 +1,4 @@
+/Users/mahuijie/Desktop/ChatLib/ios_arm64_build/CMakeFiles/ALL_BUILD.dir
+/Users/mahuijie/Desktop/ChatLib/ios_arm64_build/CMakeFiles/ZERO_CHECK.dir
+/Users/mahuijie/Desktop/ChatLib/ios_arm64_build/lib/CMakeFiles/UDPChat-static.dir
+/Users/mahuijie/Desktop/ChatLib/ios_arm64_build/lib/CMakeFiles/UDPChat.dir

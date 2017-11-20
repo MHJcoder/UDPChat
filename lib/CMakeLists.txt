@@ -1,0 +1,21 @@
+set (major_version 1)
+set (minor_version 0)
+set (patch_version 0)
+set (build_version 0)
+set (version ${major_version}.${minor_version}.${patch_version})
+set (file_inc udpchat.h)
+set (file_src udpchat.c)
+set (lib_name "UDPChat")
+set (lib_name_static ${lib_name}-static)
+set (lib_name_shared ${lib_name}-shared)
+
+add_library (${lib_name} SHARED ${file_src})
+add_library (${lib_name_static} STATIC ${file_src})
+set_target_properties (${lib_name_static} PROPERTIES OUTPUT_NAME ${lib_name})
+get_target_property (output_value ${lib_name} OUTPUT_NAME)
+set_target_properties (${lib_name} PROPERTIES CLEAN_DIRECT_OUTPUT 1)
+set_target_properties (${lib_name_static} PROPERTIES CLEAN_DIRECT_OUTPUT 1)
+
+
+include_directories(/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/include)
+include_directories(/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/include/darwin)
