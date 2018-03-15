@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "udpchat.h": "c",
-        "cn_edu_scnu_libhttpserver_httpserver_udpchat.h": "c"
+        "cn_edu_scnu_libhttpserver_httpserver_udpchat.h": "c",
+        "system_error": "c"
     }
 }

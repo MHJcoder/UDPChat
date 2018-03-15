@@ -1,0 +1,2 @@
+/Users/mahuijie/Desktop/android-toolchain-24/bin/aarch64-linux-android-gcc-ar qc libANUDPChat.a  CMakeFiles/ANUDPChat-static.dir/udpchat.cpp.o
+/Users/mahuijie/Desktop/android-toolchain-24/bin/aarch64-linux-android-ranlib libANUDPChat.a

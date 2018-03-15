@@ -1,0 +1,6 @@
+/Users/mahuijie/Desktop/ChatLib/armbuild/CMakeFiles/rebuild_cache.dir
+/Users/mahuijie/Desktop/ChatLib/armbuild/CMakeFiles/edit_cache.dir
+/Users/mahuijie/Desktop/ChatLib/armbuild/lib/CMakeFiles/rebuild_cache.dir
+/Users/mahuijie/Desktop/ChatLib/armbuild/lib/CMakeFiles/edit_cache.dir
+/Users/mahuijie/Desktop/ChatLib/armbuild/lib/CMakeFiles/UDPChat-static.dir
+/Users/mahuijie/Desktop/ChatLib/armbuild/lib/CMakeFiles/UDPChat.dir

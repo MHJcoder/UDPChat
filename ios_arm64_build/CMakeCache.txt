@@ -75,12 +75,6 @@ CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
-//No help, variable specified on the command line.
-CMAKE_IOS_DEVELOPER_ROOT:UNINITIALIZED=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/
-
-//No help, variable specified on the command line.
-CMAKE_IOS_SDK_ROOT:UNINITIALIZED=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/
-
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
 
@@ -165,9 +159,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=~/Desktop/toolchain/ios.cmake
-
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
@@ -192,7 +183,7 @@ UDPChat_SOURCE_DIR:STATIC=/Users/mahuijie/Desktop/ChatLib
 ########################
 
 //Stored Xcode object GUID
-ALL_BUILD_GUID_CMAKE:INTERNAL=D757DB1995A441FCA0A1CB5E
+ALL_BUILD_GUID_CMAKE:INTERNAL=447FEBD187D944B49449F453
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -311,11 +302,11 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Stored Xcode object GUID
-PROJECT_UDPChat_GUID_CMAKE:INTERNAL=560BA2AE543E4EFB897ECF9F
+PROJECT_UDPChat_GUID_CMAKE:INTERNAL=E1B2BFFA2CC04C21AF677C8E
 //Stored Xcode object GUID
-UDPChat-static_GUID_CMAKE:INTERNAL=C2662E40523249F1BE1EA5A2
+UDPChat-static_GUID_CMAKE:INTERNAL=4E08B869F15C400DB85E2A6C
 //Stored Xcode object GUID
-UDPChat_GUID_CMAKE:INTERNAL=264A60F157B2423AA0398B0A
+UDPChat_GUID_CMAKE:INTERNAL=8ECE4A48B78D42E1A444E4DB
 //Stored Xcode object GUID
-ZERO_CHECK_GUID_CMAKE:INTERNAL=1561200E3EBD41CF9C6BAC92
+ZERO_CHECK_GUID_CMAKE:INTERNAL=3F11E51EA3814F6CA0557760
 

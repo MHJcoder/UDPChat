@@ -1,15 +1,30 @@
 #include "udpchat.h"
 
+#include <stdlib.h>
+#include <sys/socket.h>
+// #include "ifaddrs.h"
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <unistd.h>
+#include <netdb.h>
+#include <string.h>
+#include <errno.h>
+#include <pthread.h>
+#include <stdio.h>
+#define MSG_SIZE 6400
+// #define MCAST_PORT 3485
+#define MCAST_ADDR "224.1.1.85"
 
-sockInfo  joinInGroup(char *host,int port){
+
+void  joinInGroup(char *host,int port,sockInfo * Info){
     printf("JoinInGroup\n");
     int sender_fd=socket(AF_INET, SOCK_DGRAM, 0);
     int recver_fd=socket(AF_INET, SOCK_DGRAM, 0);
     struct sockaddr_in multicast_addr,local_addr;
     struct ip_mreq mreq;
-    int buflen=0;
-    sockInfo Info;
-    pthread_t pid;
+//    int buflen=0;
+    // sockInfo Info;
+//    pthread_t pid;
     if(sender_fd ==-1){
             perror("socket\n");
             exit(1);
@@ -68,17 +83,16 @@ sockInfo  joinInGroup(char *host,int port){
      perror("set:IP_ADD_MEMBERSHIP");
      exit(errno);
     }
-    
-    Info.recver_fd=recver_fd;
-    Info.sender_fd=sender_fd;
-    Info.port=port;
-    return Info;
+    Info->recver_fd=recver_fd;
+    Info->sender_fd=sender_fd;
+    Info->port=port;
+//    return Info;
 }
 
 
 
-int sendMessage(int socket_fd,int port,char *message){
-    int buflen=0;
+ssize_t sendMessage(int socket_fd,int port,char *message){
+    ssize_t buflen=0;
     struct sockaddr_in multicast_addr;
     memset(&multicast_addr,0,sizeof(multicast_addr));
     multicast_addr.sin_family=AF_INET;
@@ -96,9 +110,10 @@ int sendMessage(int socket_fd,int port,char *message){
 
 
 //接收消息
-int recvMessage(int socket_fd,char*message){
+ssize_t recvMessage(int socket_fd,char*message){
+
     // char buffer[MSG_SIZE];
-    int buflen=0;
+    ssize_t buflen=0;
     struct sockaddr_in addr;
     socklen_t addrlen=sizeof(addr);
     buflen=recvfrom(socket_fd,message,MSG_SIZE-1,0,(struct sockaddr*)&addr,&addrlen);
@@ -112,6 +127,7 @@ void quitGroup(int sender_fd,int recver_fd,char*host){
     // char host[NI_MAXHOST];
     // findip(host);
     //退出组播
+    printf("QuitGroup"); 
     memset(&mreq,0,sizeof(mreq));
     mreq.imr_multiaddr.s_addr=inet_addr(MCAST_ADDR);//组播地址
     mreq.imr_interface.s_addr=inet_addr(host);//网络接口默认

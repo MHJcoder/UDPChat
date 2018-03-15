@@ -1,0 +1,6 @@
+/Users/mahuijie/Desktop/ChatLib/arm64build/CMakeFiles/rebuild_cache.dir
+/Users/mahuijie/Desktop/ChatLib/arm64build/CMakeFiles/edit_cache.dir
+/Users/mahuijie/Desktop/ChatLib/arm64build/jnilibs/CMakeFiles/rebuild_cache.dir
+/Users/mahuijie/Desktop/ChatLib/arm64build/jnilibs/CMakeFiles/edit_cache.dir
+/Users/mahuijie/Desktop/ChatLib/arm64build/jnilibs/CMakeFiles/ANUDPChat-static.dir
+/Users/mahuijie/Desktop/ChatLib/arm64build/jnilibs/CMakeFiles/ANUDPChat.dir

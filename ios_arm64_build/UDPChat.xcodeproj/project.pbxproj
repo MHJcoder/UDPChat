@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		1561200E3EBD41CF9C6BAC92 /* ZERO_CHECK */ = {
+		3F11E51EA3814F6CA0557760 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3FA4B0BE8CB0456E95425F25 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 4F78B9D3CECC45C1A8F292D6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				EB98B85BFCDB48EBB4E54AAC /* CMake Rules */,
+				145AC31232174ADFB2651F6C /* CMake Rules */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		D757DB1995A441FCA0A1CB5E /* ALL_BUILD */ = {
+		447FEBD187D944B49449F453 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 24DADA087670482FAF12D62A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = BC6069942996484BA3908FFF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				4DF11666E1D24D639AAAE92C /* CMake Rules */,
+				E5A37E5F22FC44E5B58FA4D5 /* CMake Rules */,
 			);
 			dependencies = (
-				D6401472EF094D04B1317CA2 /* PBXTargetDependency */,
-				CC59A53398024EDBBAF3B59D /* PBXTargetDependency */,
-				BBF8EB492FB5421C83E2EF7A /* PBXTargetDependency */,
+				A585AD0A58E2441F964E55D4 /* PBXTargetDependency */,
+				B7BB19A5EE514B998DE53740 /* PBXTargetDependency */,
+				98059CCCCECC4082AE96CF42 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -35,223 +35,212 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		B005C8AE64D94347953060BD /* udpchat.c in Sources */ = {isa = PBXBuildFile; fileRef = B45CBDDD676541FAACE16CF2 /* udpchat.c */; };
-		C01F32A8993D446CA7B7CE6B /* udpchat.c in Sources */ = {isa = PBXBuildFile; fileRef = 991F6A342DC94C46A08DF91D /* udpchat.c */; };
+		360CB93F43D8484EB48A44CC /* udpchat.c in Sources */ = {isa = PBXBuildFile; fileRef = 7762F5E76F9B4BD09ACDA9F9 /* udpchat.c */; };
+		B6E128663377464386120588 /* udpchat.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E92140048B84B3C9E95E379 /* udpchat.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1298A1EEAC024FE082FCFE15 /* PBXContainerItemProxy */ = {
+		124F615DAA794E8EB4D6BD48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 560BA2AE543E4EFB897ECF9F /* Project object */;
+			containerPortal = E1B2BFFA2CC04C21AF677C8E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1561200E3EBD41CF9C6BAC92;
+			remoteGlobalIDString = 3F11E51EA3814F6CA0557760;
 			remoteInfo = ZERO_CHECK;
 		};
-		22CE77849B1543F2B98BE354 /* PBXContainerItemProxy */ = {
+		698846EBA4F54E9BBD3AB51C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 560BA2AE543E4EFB897ECF9F /* Project object */;
+			containerPortal = E1B2BFFA2CC04C21AF677C8E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1561200E3EBD41CF9C6BAC92;
-			remoteInfo = ZERO_CHECK;
-		};
-		2E8E54DFA8D744219707657B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 560BA2AE543E4EFB897ECF9F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 264A60F157B2423AA0398B0A;
+			remoteGlobalIDString = 8ECE4A48B78D42E1A444E4DB;
 			remoteInfo = UDPChat;
 		};
-		3B2A65C2C1434071B1F9D180 /* PBXContainerItemProxy */ = {
+		BA05A34371A04B25903D9B4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 560BA2AE543E4EFB897ECF9F /* Project object */;
+			containerPortal = E1B2BFFA2CC04C21AF677C8E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C2662E40523249F1BE1EA5A2;
+			remoteGlobalIDString = 4E08B869F15C400DB85E2A6C;
 			remoteInfo = "UDPChat-static";
 		};
-		F8863ECA414E4596A2E4E328 /* PBXContainerItemProxy */ = {
+		CFB77E2EB8E24FF2AE2E845E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 560BA2AE543E4EFB897ECF9F /* Project object */;
+			containerPortal = E1B2BFFA2CC04C21AF677C8E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1561200E3EBD41CF9C6BAC92;
+			remoteGlobalIDString = 3F11E51EA3814F6CA0557760;
+			remoteInfo = ZERO_CHECK;
+		};
+		DC568D1E686A4956A20AF749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B2BFFA2CC04C21AF677C8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F11E51EA3814F6CA0557760;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		225A8458B489454E898D9F53 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		4393F4BD48304207A9C02211 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5A2FB450C5414549A0F4227B /* libUDPChat.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libUDPChat.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E7F15E4C02346DD98BEFF14 /* libUDPChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libUDPChat.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		991F6A342DC94C46A08DF91D /* udpchat.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = udpchat.c; path = lib/udpchat.c; sourceTree = SOURCE_ROOT; };
-		B45CBDDD676541FAACE16CF2 /* udpchat.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = udpchat.c; path = lib/udpchat.c; sourceTree = SOURCE_ROOT; };
-		C1C7CF2CD3544A4AB0F0B6B9 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C662184225CD492DBAA7189E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0FBEB9CEC82C4AB0978238EA /* libUDPChat.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libUDPChat.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD03764D27E443C99FCD744 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1B735A708AB74B0AA7E3023E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7762F5E76F9B4BD09ACDA9F9 /* udpchat.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = udpchat.c; path = lib/udpchat.c; sourceTree = SOURCE_ROOT; };
+		8E92140048B84B3C9E95E379 /* udpchat.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = udpchat.c; path = lib/udpchat.c; sourceTree = SOURCE_ROOT; };
+		AEDBBCEABA2F47B2893A25E8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E8FFE053237841119F399ACD /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F955B808202E43CB8A0FFC6A /* libUDPChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libUDPChat.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		26BCD9DD4BD94F09AD4AF149 /* Source Files */ = {
+		0276B8A3DE6646FB92878FC7 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				991F6A342DC94C46A08DF91D /* udpchat.c */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0FF17F264BED4ED8B72B95B5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2A6113491AC940CFBBE94FEE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7762F5E76F9B4BD09ACDA9F9 /* udpchat.c */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		28B706F79A5C42ABB6268A9E /* UDPChat */ = {
+		33EFC59D5CFE43A0946D6BF3 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				53627F1CBA014F5F8B983DD6 /* Source Files */,
-				C662184225CD492DBAA7189E /* CMakeLists.txt */,
+				8E92140048B84B3C9E95E379 /* udpchat.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3E5B0F04F11743AD83FF4C16 /* UDPChat */ = {
+			isa = PBXGroup;
+			children = (
+				2A6113491AC940CFBBE94FEE /* Source Files */,
+				1B735A708AB74B0AA7E3023E /* CMakeLists.txt */,
 			);
 			name = UDPChat;
 			sourceTree = "<group>";
 		};
-		5146083F22E942ED9597B3C0 /* CMake Rules */ = {
+		46A0327BB7CB40D9B91B7F43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		53627F1CBA014F5F8B983DD6 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				B45CBDDD676541FAACE16CF2 /* udpchat.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		5DE1F8BE8E514EA2930C175C /* UDPChat-static */ = {
-			isa = PBXGroup;
-			children = (
-				26BCD9DD4BD94F09AD4AF149 /* Source Files */,
-				4393F4BD48304207A9C02211 /* CMakeLists.txt */,
-			);
-			name = "UDPChat-static";
-			sourceTree = "<group>";
-		};
-		A146AC395A2545668BD5402E = {
-			isa = PBXGroup;
-			children = (
-				F4CB93BA71EA4603AEE3B278 /* ALL_BUILD */,
-				DD57F6457D3D4588BCAC2BD6 /* ZERO_CHECK */,
-				5DE1F8BE8E514EA2930C175C /* UDPChat-static */,
-				28B706F79A5C42ABB6268A9E /* UDPChat */,
-				E89FDFB4A8AB49EE80EE711A /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		A4ACBA895E1F4CA58B5D5D9F /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		DD57F6457D3D4588BCAC2BD6 /* ZERO_CHECK */ = {
-			isa = PBXGroup;
-			children = (
-				A4ACBA895E1F4CA58B5D5D9F /* CMake Rules */,
-				C1C7CF2CD3544A4AB0F0B6B9 /* CMakeLists.txt */,
-			);
-			name = ZERO_CHECK;
-			sourceTree = "<group>";
-		};
-		E89FDFB4A8AB49EE80EE711A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5A2FB450C5414549A0F4227B /* libUDPChat.dylib */,
-				7E7F15E4C02346DD98BEFF14 /* libUDPChat.a */,
+				0FBEB9CEC82C4AB0978238EA /* libUDPChat.dylib */,
+				F955B808202E43CB8A0FFC6A /* libUDPChat.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4CB93BA71EA4603AEE3B278 /* ALL_BUILD */ = {
+		87653292BF5C41E59352124F = {
 			isa = PBXGroup;
 			children = (
-				5146083F22E942ED9597B3C0 /* CMake Rules */,
-				225A8458B489454E898D9F53 /* CMakeLists.txt */,
+				9770B48D425442AB869EA10D /* ALL_BUILD */,
+				8A34718E5F3A4BC2AD1209B5 /* ZERO_CHECK */,
+				E980C20BDA334E31BBAB6A02 /* UDPChat-static */,
+				3E5B0F04F11743AD83FF4C16 /* UDPChat */,
+				46A0327BB7CB40D9B91B7F43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A34718E5F3A4BC2AD1209B5 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				0FF17F264BED4ED8B72B95B5 /* CMake Rules */,
+				E8FFE053237841119F399ACD /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		9770B48D425442AB869EA10D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0276B8A3DE6646FB92878FC7 /* CMake Rules */,
+				AEDBBCEABA2F47B2893A25E8 /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E980C20BDA334E31BBAB6A02 /* UDPChat-static */ = {
+			isa = PBXGroup;
+			children = (
+				33EFC59D5CFE43A0946D6BF3 /* Source Files */,
+				0FD03764D27E443C99FCD744 /* CMakeLists.txt */,
+			);
+			name = "UDPChat-static";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		264A60F157B2423AA0398B0A /* UDPChat */ = {
+		4E08B869F15C400DB85E2A6C /* UDPChat-static */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2152DE8AD0A44773923F4469 /* Build configuration list for PBXNativeTarget "UDPChat" */;
+			buildConfigurationList = 812BA6CC27AB4F0A960C61AB /* Build configuration list for PBXNativeTarget "UDPChat-static" */;
 			buildPhases = (
-				FD4DD584B9674FBBBDFFE7B5 /* Sources */,
-				E7B48D2A5FC546BFB9182EB4 /* CMake PostBuild Rules */,
+				471EB58AC90845C3B14FD80A /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43FD0C3C6C3B4A218CD6D357 /* PBXTargetDependency */,
-			);
-			name = UDPChat;
-			productName = UDPChat;
-			productReference = 5A2FB450C5414549A0F4227B /* libUDPChat.dylib */;
-			productType = "com.apple.product-type.library.dynamic";
-		};
-		C2662E40523249F1BE1EA5A2 /* UDPChat-static */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5904B87120FF47B8A9118131 /* Build configuration list for PBXNativeTarget "UDPChat-static" */;
-			buildPhases = (
-				88ED20BBAF6D493D8B1F2378 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C14EC02385C24DEA838107BB /* PBXTargetDependency */,
+				0CDE05E8F24E499D9E468A8F /* PBXTargetDependency */,
 			);
 			name = "UDPChat-static";
 			productName = "UDPChat-static";
-			productReference = 7E7F15E4C02346DD98BEFF14 /* libUDPChat.a */;
+			productReference = F955B808202E43CB8A0FFC6A /* libUDPChat.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		8ECE4A48B78D42E1A444E4DB /* UDPChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B568B6389621485E8F15CA9A /* Build configuration list for PBXNativeTarget "UDPChat" */;
+			buildPhases = (
+				F85AD2848F3A489BBBBC2B53 /* Sources */,
+				078F5E30F27E423C96CAC832 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7FA439DED814F13824FE28D /* PBXTargetDependency */,
+			);
+			name = UDPChat;
+			productName = UDPChat;
+			productReference = 0FBEB9CEC82C4AB0978238EA /* libUDPChat.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		560BA2AE543E4EFB897ECF9F /* Project object */ = {
+		E1B2BFFA2CC04C21AF677C8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0910;
 			};
-			buildConfigurationList = EBDA561516B0486680DF0539 /* Build configuration list for PBXProject "UDPChat" */;
+			buildConfigurationList = 285FC5F2CD8D4A71A0D75FB3 /* Build configuration list for PBXProject "UDPChat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A146AC395A2545668BD5402E;
+			mainGroup = 87653292BF5C41E59352124F;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
-				D757DB1995A441FCA0A1CB5E /* ALL_BUILD */,
-				1561200E3EBD41CF9C6BAC92 /* ZERO_CHECK */,
-				264A60F157B2423AA0398B0A /* UDPChat */,
-				C2662E40523249F1BE1EA5A2 /* UDPChat-static */,
+				447FEBD187D944B49449F453 /* ALL_BUILD */,
+				3F11E51EA3814F6CA0557760 /* ZERO_CHECK */,
+				8ECE4A48B78D42E1A444E4DB /* UDPChat */,
+				4E08B869F15C400DB85E2A6C /* UDPChat-static */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4DF11666E1D24D639AAAE92C /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/mahuijie/Desktop/ChatLib/ios_arm64_build -f /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		E7B48D2A5FC546BFB9182EB4 /* CMake PostBuild Rules */ = {
+		078F5E30F27E423C96CAC832 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,7 +251,7 @@
 			shellScript = "make -C /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/lib -f /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/lib/CMakeScripts/UDPChat_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		EB98B85BFCDB48EBB4E54AAC /* CMake Rules */ = {
+		145AC31232174ADFB2651F6C /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,57 +262,294 @@
 			shellScript = "make -C /Users/mahuijie/Desktop/ChatLib/ios_arm64_build -f /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
+		E5A37E5F22FC44E5B58FA4D5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mahuijie/Desktop/ChatLib/ios_arm64_build -f /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88ED20BBAF6D493D8B1F2378 /* Sources */ = {
+		471EB58AC90845C3B14FD80A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01F32A8993D446CA7B7CE6B /* udpchat.c in Sources */,
+				B6E128663377464386120588 /* udpchat.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD4DD584B9674FBBBDFFE7B5 /* Sources */ = {
+		F85AD2848F3A489BBBBC2B53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B005C8AE64D94347953060BD /* udpchat.c in Sources */,
+				360CB93F43D8484EB48A44CC /* udpchat.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43FD0C3C6C3B4A218CD6D357 /* PBXTargetDependency */ = {
+		0CDE05E8F24E499D9E468A8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1561200E3EBD41CF9C6BAC92 /* ZERO_CHECK */;
-			targetProxy = F8863ECA414E4596A2E4E328 /* PBXContainerItemProxy */;
+			target = 3F11E51EA3814F6CA0557760 /* ZERO_CHECK */;
+			targetProxy = DC568D1E686A4956A20AF749 /* PBXContainerItemProxy */;
 		};
-		BBF8EB492FB5421C83E2EF7A /* PBXTargetDependency */ = {
+		98059CCCCECC4082AE96CF42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 264A60F157B2423AA0398B0A /* UDPChat */;
-			targetProxy = 2E8E54DFA8D744219707657B /* PBXContainerItemProxy */;
+			target = 3F11E51EA3814F6CA0557760 /* ZERO_CHECK */;
+			targetProxy = 124F615DAA794E8EB4D6BD48 /* PBXContainerItemProxy */;
 		};
-		C14EC02385C24DEA838107BB /* PBXTargetDependency */ = {
+		A585AD0A58E2441F964E55D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1561200E3EBD41CF9C6BAC92 /* ZERO_CHECK */;
-			targetProxy = 1298A1EEAC024FE082FCFE15 /* PBXContainerItemProxy */;
+			target = 4E08B869F15C400DB85E2A6C /* UDPChat-static */;
+			targetProxy = BA05A34371A04B25903D9B4F /* PBXContainerItemProxy */;
 		};
-		CC59A53398024EDBBAF3B59D /* PBXTargetDependency */ = {
+		A7FA439DED814F13824FE28D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2662E40523249F1BE1EA5A2 /* UDPChat-static */;
-			targetProxy = 3B2A65C2C1434071B1F9D180 /* PBXContainerItemProxy */;
+			target = 3F11E51EA3814F6CA0557760 /* ZERO_CHECK */;
+			targetProxy = CFB77E2EB8E24FF2AE2E845E /* PBXContainerItemProxy */;
 		};
-		D6401472EF094D04B1317CA2 /* PBXTargetDependency */ = {
+		B7BB19A5EE514B998DE53740 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1561200E3EBD41CF9C6BAC92 /* ZERO_CHECK */;
-			targetProxy = 22CE77849B1543F2B98BE354 /* PBXContainerItemProxy */;
+			target = 8ECE4A48B78D42E1A444E4DB /* UDPChat */;
+			targetProxy = 698846EBA4F54E9BBD3AB51C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05F8BB454CDB4E5088F2290F /* RelWithDebInfo */ = {
+		0826AD1093F54E38AF15D7C0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		0926EFF0D14342D0B17C4C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		2D85528A54B84E1896CFAA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos11.1;
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/build;
+				VALID_ARCHS = "x86_64 arm64";
+			};
+			name = Release;
+		};
+		500569DE4CA44A80A22B8267 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos11.1;
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/build;
+				VALID_ARCHS = "x86_64 arm64";
+			};
+			name = MinSizeRel;
+		};
+		5334C13D426847608C353D73 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos11.1;
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/build;
+				VALID_ARCHS = "x86_64 arm64";
+			};
+			name = RelWithDebInfo;
+		};
+		5543B4DD81F64DC5AD925604 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		5A86616E982344C49AAB65A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		7FCF117837014F8588431777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		8A58DEC3831E4B79B2387C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Android,
+					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include,
+					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include/darwin,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UDPChat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/lib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		9096001E46C84D3FA01C312D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Android,
+					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include,
+					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include/darwin,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UDPChat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/lib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		94C0A91D96CA41759FE841B8 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -357,7 +583,32 @@
 			};
 			name = RelWithDebInfo;
 		};
-		0818929CFD744A11AC42173E /* Release */ = {
+		9B9EC56431584B95A40E3480 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		A77915DF8A0744A88C2710CF /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -365,7 +616,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
@@ -389,9 +640,9 @@
 					"$(inherited)",
 				);
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		1561D4577C9A438E871440FA /* MinSizeRel */ = {
+		A7ACD33AC5CF4C8D8D3FD5F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -403,9 +654,8 @@
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
@@ -415,20 +665,20 @@
 					"$(inherited)",
 				);
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		1C0E533316484613BA7B4A70 /* Debug */ = {
+		A8AB8BE793C54CB898A69A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos11.1;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/build;
-				VALID_ARCHS = arm64;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
 		};
-		24CC3D45C1BF41A797D90B20 /* Release */ = {
+		AB7E99AD1FE94001B2A45A26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -474,26 +724,38 @@
 			};
 			name = Release;
 		};
-		2C6B4039E4B9430FA0E74507 /* MinSizeRel */ = {
+		D6601954F1194E69908C33A8 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
 				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
+				EXECUTABLE_SUFFIX = .dylib;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					UDPChat_EXPORTS,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					/Applications/Android,
 					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include,
 					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include/darwin,
 				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG  ";
-				OTHER_LIBTOOLFLAGS = " ";
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = UDPChat;
 				SECTORDER_FLAGS = "";
@@ -508,7 +770,7 @@
 			};
 			name = MinSizeRel;
 		};
-		347DD6BBA319453EB6D34D84 /* RelWithDebInfo */ = {
+		D6F9ABE46FCF4D70A2DCA52A /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -554,104 +816,7 @@
 			};
 			name = RelWithDebInfo;
 		};
-		490A9B166ABC493AAFF505A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		4CAB7FEA146246558EA00E85 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					UDPChat_EXPORTS,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					/Applications/Android,
-					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include,
-					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include/darwin,
-				);
-				INSTALL_PATH = "@rpath";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CFLAGS = (
-					"-DNDEBUG",
-					"-fPIC",
-				);
-				OTHER_LDFLAGS = (
-					"-dynamiclib",
-					"-Wl,-headerpad_max_install_names",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = UDPChat;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/lib;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
-		};
-		5FEFF9E2FC7246A4BCF160FF /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		7811207398A24DDFBE1B3DF8 /* Debug */ = {
+		D74DA4BF2D3440A89D07262A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -694,88 +859,7 @@
 			};
 			name = Debug;
 		};
-		8BF91A064A7B4B549BF887DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					/Applications/Android,
-					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include,
-					/Users/mahuijie/Desktop/ChatLib/lib/Studio.app/Contents/jre/jdk/Contents/Home/include/darwin,
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = UDPChat;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/lib;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		B9AC4BD823634715A35A34A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos11.1;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/build;
-				VALID_ARCHS = arm64;
-			};
-			name = Release;
-		};
-		CA23A1B9D0044BAD86256374 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		D75FB5051CBF4510A8B44663 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos11.1;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/build;
-				VALID_ARCHS = arm64;
-			};
-			name = RelWithDebInfo;
-		};
-		E82EF3E4B3AF4F87A529DC54 /* Release */ = {
+		F7366891E4564BA1B0D0BE72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -789,58 +873,6 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		E88487D06C3B4251B888303F /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
-		};
-		F2F01B9A37964F0A8D5E97AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
@@ -851,102 +883,66 @@
 				);
 			};
 			name = Debug;
-		};
-		F97D1AAE08E2495DB31140E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		FF9FD52CD5FA4727A09B5159 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos11.1;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = /Users/mahuijie/Desktop/ChatLib/ios_arm64_build/build;
-				VALID_ARCHS = arm64;
-			};
-			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2152DE8AD0A44773923F4469 /* Build configuration list for PBXNativeTarget "UDPChat" */ = {
+		285FC5F2CD8D4A71A0D75FB3 /* Build configuration list for PBXProject "UDPChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7811207398A24DDFBE1B3DF8 /* Debug */,
-				24CC3D45C1BF41A797D90B20 /* Release */,
-				4CAB7FEA146246558EA00E85 /* MinSizeRel */,
-				347DD6BBA319453EB6D34D84 /* RelWithDebInfo */,
+				A8AB8BE793C54CB898A69A5E /* Debug */,
+				2D85528A54B84E1896CFAA50 /* Release */,
+				500569DE4CA44A80A22B8267 /* MinSizeRel */,
+				5334C13D426847608C353D73 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24DADA087670482FAF12D62A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		4F78B9D3CECC45C1A8F292D6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2F01B9A37964F0A8D5E97AD /* Debug */,
-				E82EF3E4B3AF4F87A529DC54 /* Release */,
-				1561D4577C9A438E871440FA /* MinSizeRel */,
-				5FEFF9E2FC7246A4BCF160FF /* RelWithDebInfo */,
+				A7ACD33AC5CF4C8D8D3FD5F0 /* Debug */,
+				0926EFF0D14342D0B17C4C29 /* Release */,
+				9B9EC56431584B95A40E3480 /* MinSizeRel */,
+				5A86616E982344C49AAB65A4 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FA4B0BE8CB0456E95425F25 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		812BA6CC27AB4F0A960C61AB /* Build configuration list for PBXNativeTarget "UDPChat-static" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				490A9B166ABC493AAFF505A4 /* Debug */,
-				F97D1AAE08E2495DB31140E7 /* Release */,
-				E88487D06C3B4251B888303F /* MinSizeRel */,
-				CA23A1B9D0044BAD86256374 /* RelWithDebInfo */,
+				9096001E46C84D3FA01C312D /* Debug */,
+				8A58DEC3831E4B79B2387C10 /* Release */,
+				A77915DF8A0744A88C2710CF /* MinSizeRel */,
+				94C0A91D96CA41759FE841B8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5904B87120FF47B8A9118131 /* Build configuration list for PBXNativeTarget "UDPChat-static" */ = {
+		B568B6389621485E8F15CA9A /* Build configuration list for PBXNativeTarget "UDPChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BF91A064A7B4B549BF887DF /* Debug */,
-				0818929CFD744A11AC42173E /* Release */,
-				2C6B4039E4B9430FA0E74507 /* MinSizeRel */,
-				05F8BB454CDB4E5088F2290F /* RelWithDebInfo */,
+				D74DA4BF2D3440A89D07262A /* Debug */,
+				AB7E99AD1FE94001B2A45A26 /* Release */,
+				D6601954F1194E69908C33A8 /* MinSizeRel */,
+				D6F9ABE46FCF4D70A2DCA52A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBDA561516B0486680DF0539 /* Build configuration list for PBXProject "UDPChat" */ = {
+		BC6069942996484BA3908FFF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C0E533316484613BA7B4A70 /* Debug */,
-				B9AC4BD823634715A35A34A1 /* Release */,
-				FF9FD52CD5FA4727A09B5159 /* MinSizeRel */,
-				D75FB5051CBF4510A8B44663 /* RelWithDebInfo */,
+				F7366891E4564BA1B0D0BE72 /* Debug */,
+				7FCF117837014F8588431777 /* Release */,
+				0826AD1093F54E38AF15D7C0 /* MinSizeRel */,
+				5543B4DD81F64DC5AD925604 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 560BA2AE543E4EFB897ECF9F /* Project object */;
+	rootObject = E1B2BFFA2CC04C21AF677C8E /* Project object */;
 }

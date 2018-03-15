@@ -1,8 +1,10 @@
-#include "udpchat.h"
+#include "udpchat.c"
+
 
 int main(){
-    char *host="192.168.8.4";
-    sockInfo info=joinInGroup("192.168.8.4",6666);
+    char *host="192.168.0.101";
+    sockInfo info;
+    joinInGroup(host,8888,&info);
     char message[MSG_SIZE];
 
     //开辟线程接收数据

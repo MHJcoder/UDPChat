@@ -1,0 +1,2 @@
+/Users/mahuijie/Desktop/android-toolchain-24-32/bin/arm-linux-androideabi-gcc-ar qc libUDPChat.a  CMakeFiles/UDPChat-static.dir/udpchat.c.o
+/Users/mahuijie/Desktop/android-toolchain-24-32/bin/arm-linux-androideabi-ranlib libUDPChat.a
